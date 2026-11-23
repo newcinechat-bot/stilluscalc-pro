@@ -229,8 +229,6 @@ label{font-size:12px;font-weight:bold;display:block;margin-bottom:3px}
 <button class="btn btn-cinza" style="margin-top:8px" onclick="abrirModal('modalBoasVindas')">VER TELA DE BOAS-VINDAS NOVAMENTE</button>
 </div>
 </div>
-<!-- FIM DA PARTE 1 - NAO SALVA AINDA, ESPERA A PARTE 2 -->
-<!-- INICIO DA PARTE 2 -->
 <div id="modalLogin" class="modal">
 <div class="modal-box">
 <div class="boas-vindas"><div class="logo">💰</div><h2>StillusCalc PRO</h2><p>Entre para vender! O dono cadastra os vendedores com login e senha.</p></div>
@@ -413,8 +411,6 @@ label{font-size:12px;font-weight:bold;display:block;margin-bottom:3px}
 <button class="btn btn-verde" onclick="salvarLoja()">SALVAR MINHA LOJA</button>
 </div>
 </div>
-<!-- FIM DA PARTE 2 - NAO SALVA AINDA, ESPERA A PARTE 3 -->
-<!-- INICIO DA PARTE 3 - ULTIMA PARTE -->
 <div id="modalVendEquipe" class="modal" onclick="if(event.target.id==='modalVendEquipe') fecharModal('modalVendEquipe')">
 <div class="modal-box">
 <div class="modal-top"><h3>👥 Equipe de Vendedores - Só o Dono cadastra</h3><button class="btn-fechar" onclick="fecharModal('modalVendEquipe')">X</button></div>
